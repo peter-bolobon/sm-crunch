@@ -1,0 +1,21 @@
+{
+    "name": "wizardist/sm-crunch",
+    "description": "SM Crunching",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pavel Selitskas",
+            "email": "p.selitskas@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "autoload": {
+        "psr-4": {
+            "SmCrunch\\": "src"
+        }
+    },
+}
